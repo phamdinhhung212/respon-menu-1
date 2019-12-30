@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+	.wp-inner { width: 100%; }
+	#logo { margin-left: 5%; }
+	#form-search {  margin-right: 3%; }
+	#main-menu { display: none; }
+	#icon-menu { display: block; }
+	#menu-respon { margin-left: 5%; }
+}
+@media screen and (max-width: 800px) {
+	#form-search input { width: 150px;}
+	#form-search {  margin-right: 3%; }
+}
+@media screen and (max-width: 600px) {
+	#content { width: 100%;}
+	#sidebar { width: 100%; min-height: 200px;}
+	#footer { min-height: 500px; }
+	#form-search input { display: none; position: absolute; top: 100%; right: 0%; }
+	#btn-search { display: block; }
+}
